@@ -1,0 +1,70 @@
+# Site settings
+baseurl = "https://jennych.github.io"
+languageCode = "en-us"
+title = "JennyCh"
+theme = ""
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "JennyCh"
+  description = ""
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = true
+    image = "assets/img/logo.png"
+    class = "logo-img"
+    alt = "JennyCh"
+    width = "100"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "JennyCh"
+
+  # Quote section
+  [params.quote]
+    enable = true
+    text = "Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy."
+
+  # Social icons section
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Email Me!"
+    icon = "fa-envelope"
+    link = "mailto:chaishipeng_dear@163.com"
+
+  [[params.social]]
+    title = "Weibo"
+    icon = "fa-weibo"
+    link = "http://weibo.com/chaishipeng"
+
+  [[params.social]]
+    title = "Github"
+    icon = "fa-github"
+    link = "https://github.com/jennych"
+
+  [[params.social]]
+    title = "Blog"
+    icon = "fa-comment"
+    link = "https://jennych.github.io/blog.jennych"
