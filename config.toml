@@ -67,4 +67,4 @@ googleAnalytics = ""
   [[params.social]]
     title = "Blog"
     icon = "fa-comment"
-    link = "https://jennych.github.io/blog"
+    link = "https://jennych.github.io/blog/"
